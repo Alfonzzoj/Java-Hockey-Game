@@ -29,7 +29,9 @@ public class Gameplay extends JPanel implements KeyListener,ActionListener{
     private boolean gameover=false;
 
     private Timer timer;
-    private int tiempo = 4;
+    
+    private int multiplicador = 2;
+    private int tiempo = 4*multiplicador;
     
     private int score1 =0;
     private int score2 =0;
@@ -51,14 +53,15 @@ public class Gameplay extends JPanel implements KeyListener,ActionListener{
         private boolean down2=false;
 
     //=======================P E L O T A ===============================
+    private int dirPelotaX =2*multiplicador;
+    private int dirPelotaY =3*multiplicador;
+    private int posPelotaX=200;
+    private int posPelotaY=300;
+
     private int anchuraPelota=20;
     private int alturaPelota =20;
 
-    private int posPelotaX=200;
-    private int posPelotaY=300;
-    private int dirPelotaX =3;
-    private int dirPelotaY =4;
-    
+
     
     
     //Constructor
@@ -197,8 +200,8 @@ public class Gameplay extends JPanel implements KeyListener,ActionListener{
         //=======================P E L O T A ===============================
         posPelotaX=200;
         posPelotaY=300;
-        dirPelotaX =3;
-        dirPelotaY =4;
+        dirPelotaX =2*multiplicador;
+        dirPelotaY =3*multiplicador;
         timer.start();
     }
     

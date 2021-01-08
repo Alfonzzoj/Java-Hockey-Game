@@ -29,7 +29,8 @@ public class Main {
         
         Gameplay gameplay = new Gameplay();
         ventana.add(gameplay);
-        
+        gameplay.grabFocus();
+
     }
     public static void main(String[] args){
         new Main();
