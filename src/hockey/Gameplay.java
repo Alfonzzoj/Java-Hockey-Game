@@ -101,7 +101,7 @@ public class Gameplay extends JPanel implements KeyListener,ActionListener{
             g.drawString("Presione ENTER para iniciar", 340, 150);
         }
         if (gameover) {
-            if (score1==score2) {
+            /*if (score1==score2) {
             //EMPATE            
                 g.drawString("EMPATE", 470, 130);
             }else if (score1>score2 ) {
@@ -109,7 +109,7 @@ public class Gameplay extends JPanel implements KeyListener,ActionListener{
                 g.drawString("Jugador 1 Wins", 415, 130);
             }else  {
                 g.drawString("Jugador 2 Wins", 415, 130);
-            }
+            }*/
             g.drawString("Presione ENTER para reiniciar ", 340, 190);
 
         }
