@@ -12,7 +12,7 @@ _Estas instrucciones te permitirán obtener una copia del proyecto en funcionami
 _Que cosas necesitas para instalar el software y como instalarlas_
 
 
-* [Java SDK](https://www.oracle.com/java/technologies/javase-downloads.html) - implementa herramientas necesarias para la compilacion.
+* [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html) - implementa herramientas necesarias para la compilacion.
 * [Netbeans IDE 8.2](https://netbeans.org/downloads/8.2/rc/) - Entorno de desarrollo (IDE) utilizado.
 
 
